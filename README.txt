@@ -5,7 +5,7 @@ Swagger available at - [domain]/swagger/index.html
 
 All services/providers are registered in the .NET Core IoC container
 
-Players data are saved in a concurrent dictionary,
+Players data is saved in a concurrent dictionary,
 could alternatively implement using DistCache with DI (production grade),
 Since Memory/DistributedCache does not allow key enumartion - chose ConcurrentDictionary for simplicity.
 
