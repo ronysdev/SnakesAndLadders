@@ -15,6 +15,7 @@ Dice - returns random dice throw - registered as transient for thread safety
 Level - defines players movement and validity using ConfigModel
 SnakesAndLadders - Facade for our API, responsible for adding user / acquiring his status.
 
+When running locally please make sure you have levelConfig.json in your current domain base directory.
 
 Unit Testing with xUnit
 
